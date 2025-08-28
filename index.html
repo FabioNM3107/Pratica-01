@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<text x="100" y="41" text-anchor="middle" font-size="12" fill="%230b1220" font-family="Inter">R$</text>
+</g>
+</svg>' />
+<img alt="Gráfico de linha em SVG" width="180" height="120" src='data:image/svg+xml;utf8,
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 140">
+<defs>
+<linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="%2338bdf8" stop-opacity="0.7"/>
+<stop offset="100%" stop-color="%2338bdf8" stop-opacity="0.05"/>
+</linearGradient>
+</defs>
+<rect width="220" height="140" rx="18" fill="%23111827"/>
+<path d="M20 110 L60 90 L100 100 L140 70 L180 40 L200 30" fill="none" stroke="%2338bdf8" stroke-width="3"/>
+<path d="M20 110 L60 90 L100 100 L140 70 L180 40 L200 30 L200 120 L20 120 Z" fill="url(%23g)"/>
+<circle cx="200" cy="30" r="6" fill="%2322c55e"/>
+</svg>' />
+<figcaption class="muted">Imagens: foto (Unsplash) e ilustrações SVG próprias.</figcaption>
+</figure>
+</article>
+
+
+<aside class="card" aria-labelledby="simulador-title">
+<h2 id="simulador-title">Simulador de Juros Compostos</h2>
+<div class="inputs" style="margin-bottom:10px">
+<label>
+<span class="muted">Aporte inicial (R$)</span>
+<input type="number" id="inicial" placeholder="Ex.: 1000" min="0" step="100" value="1000">
+</label>
+<label>
+<span class="muted">Aporte mensal (R$)</span>
+<input type="number" id="mensal" placeholder="Ex.: 200" min="0" step="50" value="200">
+</label>
+<label>
+<span class="muted">Taxa anual (%)</span>
+<input type="number" id="taxa" placeholder="Ex.: 10" min="0" step="0.1" value="10">
+</label>
+<label>
+<span class="muted">Prazo (anos)</span>
+<input type="number" id="anos" placeholder="Ex.: 5" min="1" max="50" step="1" value="5">
+</label>
+</div>
+<div class="btns">
+<button id="calcular">Calcular</button>
+<button class="secondary" id="limpar">Limpar</button>
+</div>
+<div class="result">
+<div class="pill"><div class="muted">Total investido</div><strong id="investido">R$ 0,00</strong></div>
+<div class="pill"><div class="muted">Juros ganhos</div><strong id="juros">R$ 0,00</strong></div>
+<div class="pill"><div class="muted">Valor futuro</div><strong id="futuro">R$ 0,00</strong></div>
+</div>
+<div style="margin-top:14px">
+<canvas id="grafico" aria-label="Gráfico de evolução do investimento" role="img"></canvas>
+</div>
+</aside>
+</section>
+
+
+<section class="card" style="margin-top:24px" aria-labelledby="dicas-title">
+<h2 id="dicas-title">Três hábitos financeiros que funcionam</h2>
+<div class="grid">
+<div>
+<h3>1) Pague-se primeiro</h3>
+<p>Separe uma parte da renda assim que receber (ex.: 10–20%) e automatize o aporte. A constância vence o improviso.</p>
+</div>
+<div>
+<h3>2) Tenha reserva</h3>
+<p>Monte um colchão de 3 a 6 meses de despesas em produtos de baixo risco e alta liquidez. Ele protege contra imprevistos.</p>
+</div>
+<div>
+<h3>3) Diversifique</h3>
+<p>Combine classes de ativos (renda fixa, ações, fundos, internacional) de acordo com seu perfil de risco e objetivos.</p>
+</div>
+</div>
+</section>
+
+
+<footer>
+<small>Conteúdo educativo. Simulador meramente ilustrativo – não constitui recomendação de investimento.</small>
+</footer>
+</div>
+</body>
+</html>
